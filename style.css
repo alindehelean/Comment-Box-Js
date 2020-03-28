@@ -58,3 +58,14 @@
     box-shadow: 5px 5px;
 }
 
+.commentArea>img {
+    width: 90px;
+    float: right;
+}
+
+.commentArea>p {
+    text-indent: 30px;
+    text-align: justify;
+    display: block;
+}
+
