@@ -77,7 +77,7 @@
 // })
 
 
-////////////////////////////// DIFERENT APROACH /////////////////////////////////
+////////////////////////////// DIFERENT APPROACH /////////////////////////////////
 
 
 (function(){
@@ -94,10 +94,10 @@ btn.addEventListener('click', function(e){
 
     if(text !== ""){
         commentBox.innerHTML += '<div class="commentArea">' + "<h1>"+ email +"</h1>" + "<p>" + text + "</p>" + ' <button class="deleteBtn" onclick="Delete(this);">Delete</button> </div>';   
-    }
+    };
     
     
-},false);
+});
 
 })();
 
