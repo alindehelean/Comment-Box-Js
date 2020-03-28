@@ -1,4 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 235);
+}
+
 .image {
     width: 90px;
     float: right;
 }
+
+#commentInput{
+    resize: none;
+    width: 400px;
+    height: 150px;
+    box-shadow: 5px 5px;
+  
+}
+
+#commentBtn{
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: greenyellow;
+    box-shadow: 5px 5px;
+    
+}
+
+
+#input {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.commentArea {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    padding: 10px ;
+    border:2px solid black;
+
+}
+
+.deleteBtn{
+    margin: 20px;
+    width: 100px;
+    height: 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color:red;
+    box-shadow: 5px 5px;
+}
+
